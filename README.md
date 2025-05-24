@@ -1,16 +1,16 @@
 # Bot-Discord
-Progetto Discord Bot
+## Progetto Discord Bot
 
 Il progetto consiste nella realizzazione di un bot per Discord usando Python e la libreria discord.py. L’obiettivo è stato quello di creare un bot in grado di gestire comandi utili, comandi per la moderazione e anche qualche comando divertente, mantenendo il codice ordinato e modulare.
 Struttura del progetto
 
 Il bot è stato suddiviso in più file per tenere separate le funzionalità principali. Ho usato il sistema dei "Cog", cioè delle classi che raggruppano comandi simili. Questo permette di mantenere il codice più pulito e semplice da gestire. I file sono:
 
-    basic.py contiene comandi semplici come ping, saluto e informazioni utente.
+-basic.py contiene comandi semplici come ping, saluto e informazioni utente.
 
-    moderation.py contiene comandi di moderazione come kick, ban e unban.
+-moderation.py contiene comandi di moderazione come kick, ban e unban.
 
-    fun.py contiene comandi di intrattenimento, come ad esempio la 8ball.
+-fun.py contiene comandi di intrattenimento, come ad esempio la 8ball.
 
 Il file principale (bot.py) si occupa di avviare il bot, caricare automaticamente tutti i cog dalla cartella, e leggere il token di autenticazione da un file esterno.
 Funzionalità principali
